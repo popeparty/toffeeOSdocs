@@ -12,7 +12,7 @@ We've updated our architecture codes! Read more [about the change here](/api/rel
 
 
 ## Currently Supported Stable Builds
-The first LTS build of 2.x will be ``2.1.x``.
+The first LTS build of 2.x will be ``2.1.x``.  
 | Channel | OS Version | Build | Kernel Version | Date Released | Support End Date | LTS? | Architecture |
 |---------|------------|-------|----------------|---------------|------------------|------|------------|
 | Stable  | 2.0.0      | 26X02 | 2610NX20 | October 21, 2026 | November 25, 2026 | No | x86_64 |
