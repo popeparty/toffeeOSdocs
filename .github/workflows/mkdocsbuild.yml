@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout 
         uses: actions/checkout@v2
+        with:
+           clean: false
       - name: Build
         uses: Tiryoh/actions-mkdocs@v0
         with:
