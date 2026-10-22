@@ -1136,57 +1136,37 @@
 <tbody>
 <tr>
 <td>Alpha</td>
-<td>1.7.1 for ARM</td>
-<td>170A1</td>
-<td><a href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?h=v5.16.6&amp;id=20e6a329f12d6f8862602eaf5e74544a768c0723">v5.16.6</a></td>
-<td>February 6, 2022</td>
-<td>To be determined</td>
-<td>No</td>
-<td>ARM</td>
-</tr>
-<tr>
-<td>Alpha</td>
-<td>1.7.0</td>
-<td>170Y1</td>
-<td><a href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?h=v5.10.95&amp;id=77656fde3c0125d6ef6f7fb46af6d2739d7b7141">v5.10.95</a></td>
-<td>February 1, 2022</td>
-<td>To be determined</td>
+<td>2.0.0</td>
+<td>26X03</td>
+<td>2610NX21</td>
+<td>October 21, 2026</td>
+<td>November 25, 2026</td>
 <td>No</td>
 <td>x86_64</td>
 </tr>
 <tr>
 <td>Alpha</td>
-<td>1.6.6 (x86) LTS</td>
-<td>166X1</td>
-<td><a href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?h=v5.4.175&amp;id=7cdf2951f80d189e9a0a5b6836664ccc8bfb2e7e">v5.4.175</a></td>
-<td>February 1, 2022</td>
-<td>March 1, 2022 (^)</td>
-<td>Yes</td>
-<td>x86 (final release)</td>
-</tr>
-<tr>
-<td>Beta</td>
-<td>1.6.5 (x86_64)</td>
-<td>165Y2</td>
-<td><a href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?h=v5.10.95&amp;id=77656fde3c0125d6ef6f7fb46af6d2739d7b7141">v5.10.95</a></td>
-<td>February 1, 2022</td>
-<td>To be determined</td>
+<td>2.0.0</td>
+<td>26B03</td>
+<td>2610NB21</td>
+<td>October 21, 2026</td>
+<td>November 25, 2026</td>
 <td>No</td>
-<td>x86_64</td>
-</tr>
-<tr>
-<td>Beta</td>
-<td>1.6.5 (x86) LTS</td>
-<td>165X2</td>
-<td><a href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?h=v5.4.175&amp;id=7cdf2951f80d189e9a0a5b6836664ccc8bfb2e7e">v5.4.175</a></td>
-<td>February 1, 2022</td>
-<td>March 1, 2022 (^)</td>
-<td>Yes</td>
-<td>x86</td>
+<td>arm64</td>
 </tr>
 </tbody>
 </table>
 <h2 id="currently-supported-stable-builds">Currently Supported Stable Builds</h2>
+<p>The first LTS build of 2.x will be <code>2.1.x</code>.
+| Channel | OS Version | Build | Kernel Version | Date Released | Support End Date | LTS? | Architecture |
+|---------|------------|-------|----------------|---------------|------------------|------|------------|
+| Stable  | 2.0.0      | 26X02 | 2610NX20 | October 21, 2026 | November 25, 2026 | No | arm64 |
+| Stable  | 2.0.0      | 26B02 | 2610NB20 | October 21, 2026 | November 25, 2026 | No | arm64 |</p>
+<p>(^) Stable LTS builds are supplemented by point releases (x.x) and are supported until at least this date, after which, you will be able to upgrade to the next LTS release (which comes out around every three months).</p>
+<hr />
+<h2 id="archived-unsupported-builds">Archived &amp; Unsupported Builds</h2>
+<p>We are no longer showing <strong>all</strong> of these directly on the doc in order to reduce confusion. We plan to list the most recent <strong>Stable</strong> versions below (along with their support end dates) to encourage testers to upgrade.</p>
+<p>Builds from pre-ownership reset will have a support end date of November 1, 2026, even if it is not reflected here yet.</p>
 <table>
 <thead>
 <tr>
@@ -1201,11 +1181,56 @@
 </thead>
 <tbody>
 <tr>
+<td>Alpha</td>
+<td>1.7.1 for ARM</td>
+<td>170A1</td>
+<td>February 6, 2022</td>
+<td>November 1, 2026</td>
+<td>No</td>
+<td>ARM</td>
+</tr>
+<tr>
+<td>Alpha</td>
+<td>1.7.0</td>
+<td>170Y1</td>
+<td>February 1, 2022</td>
+<td>November 1, 2026</td>
+<td>No</td>
+<td>x86_64</td>
+</tr>
+<tr>
+<td>Alpha</td>
+<td>1.6.6 (x86) LTS</td>
+<td>166X1</td>
+<td>February 1, 2022</td>
+<td>March 1, 2022 (^)</td>
+<td>Yes</td>
+<td>x86 (final release)</td>
+</tr>
+<tr>
+<td>Beta</td>
+<td>1.6.5 (x86_64)</td>
+<td>165Y2</td>
+<td>February 1, 2022</td>
+<td>November 1, 2026</td>
+<td>No</td>
+<td>x86_64</td>
+</tr>
+<tr>
+<td>Beta</td>
+<td>1.6.5 (x86) LTS</td>
+<td>165X2</td>
+<td>February 1, 2022</td>
+<td>March 1, 2022 (^)</td>
+<td>Yes</td>
+<td>x86</td>
+</tr>
+<tr>
 <td>Stable</td>
 <td>1.6.4 (x86_64)</td>
 <td>163Y4</td>
 <td>January 12, 2022</td>
-<td>To be determined</td>
+<td>November 1, 2026</td>
 <td>No</td>
 <td>x86_64</td>
 </tr>
@@ -1218,31 +1243,12 @@
 <td>Yes</td>
 <td>x86</td>
 </tr>
-</tbody>
-</table>
-<p>(^) Stable LTS builds are supplemented by point releases (x.x) and are supported until at least this date, after which, you will be able to upgrade to the next LTS release (which comes out around every three months).</p>
-<hr />
-<h2 id="archived-unsupported-builds">Archived &amp; Unsupported Builds</h2>
-<p>We are no longer showing <strong>all</strong> of these directly on the doc in order to reduce confusion. We plan to list the most recent <strong>Stable</strong> versions below (along with their support end dates) to encourage testers to upgrade.</p>
-<table>
-<thead>
-<tr>
-<th>Channel</th>
-<th>OS Version</th>
-<th>Build</th>
-<th>Date Released</th>
-<th>Support End Date</th>
-<th>LTS?</th>
-<th>Architecture</th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <td>Stable</td>
 <td>1.6.3 (x86_64)</td>
 <td>163rk2b</td>
 <td>January 12, 2022</td>
-<td>To be determined</td>
+<td>November 1, 2026</td>
 <td>No</td>
 <td>x86_64</td>
 </tr>
