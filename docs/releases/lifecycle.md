@@ -15,7 +15,7 @@ We've updated our architecture codes! Read more [about the change here](/api/rel
 The first LTS build of 2.x will be ``2.1.x``.
 | Channel | OS Version | Build | Kernel Version | Date Released | Support End Date | LTS? | Architecture |
 |---------|------------|-------|----------------|---------------|------------------|------|------------|
-| Stable  | 2.0.0      | 26X02 | 2610NX20 | October 21, 2026 | November 25, 2026 | No | arm64 |
+| Stable  | 2.0.0      | 26X02 | 2610NX20 | October 21, 2026 | November 25, 2026 | No | x86_64 |
 | Stable  | 2.0.0      | 26B02 | 2610NB20 | October 21, 2026 | November 25, 2026 | No | arm64 |
 
 (^) Stable LTS builds are supplemented by point releases (x.x) and are supported until at least this date, after which, you will be able to upgrade to the next LTS release (which comes out around every three months).
