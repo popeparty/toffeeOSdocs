@@ -11,10 +11,10 @@ x86 support has been removed in API level ``200``, making ``166X`` (1.6.8 LTS) t
 
 ### x86_64 (64-bit) [Y] and ARM [A]
 
-| toffeeOS Dev Version Release | Current Channel | API Level (Target) |
+| toffeeOS Dev Version Release | Current Channel(s) | API Level (Target) |
 |-----------------|-----------------|--------------------|
 | 2.1 LTS | Alpha | ``210`` |
-| 2.0 LTS | Alpha | ``200`` |
+| 2.0 | Alpha, Beta | ``200`` |
 | 1.8 for ARM | Stable | ``180A`` |
 | 1.8 | Stable | ``180Y`` |
 
