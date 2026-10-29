@@ -9,6 +9,8 @@ We've updated our architecture codes! Read more [about the change here](/api/rel
 |---------|------------|-------|----------------|---------------|------------------|------|------------|
 | Alpha | 2.0.0 | 26X03 | 2610NX21 | October 21, 2026 | November 25, 2026 | No | x86_64 |
 | Alpha | 2.0.0 | 26B03 | 2610NB21 | October 21, 2026 | November 25, 2026 | No | arm64 |
+| Beta | 2.0.0 | 26X02 | 2610NX20 | October 28, 2026 | December 2, 2026 | No | arm64 | 
+| Beta | 2.0.0 | 26B02 | 2610NB20 | October 28, 2026 | December 2, 2026 | No | x86_64 | 
 
 
 ## Currently Supported Stable Builds
