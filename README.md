@@ -1,19 +1,14 @@
-# Now Archived
-We've moved our documentation to [toffeedoc](https://gitlab.com/wallymer/toffeedoc).
-
----
-
 [![MKDOCS BUILD TEST](https://github.com/Wallymer/toffeeOSdocs/actions/workflows/mkdocsbuild.yml/badge.svg)](https://github.com/Wallymer/toffeeOSdocs/actions/workflows/mkdocsbuild.yml)
 
 ## toffeeOS Development Version - Documentation Repository
-This is the repository where we publicly mirror our documentation site's source material. If you're interested in helping us make corrections, please feel free to open an issue or pull request!
+This is the repository where we host our documentation site's source material. If you're interested in helping us make corrections, please feel free to open an issue or pull request!
 
-If you'd like to see the result of our build, please see the [gh-pages](https://github.com/Wallymer/unicorndocs/tree/gh-pages) branch.
+If you'd like to see the result of our build, please see the [gh-pages](https://github.com/popeparty/toffeeOSdocs/tree/gh-pages) branch.
 
 Please see the [LICENSE](LICENSE.md) file for more information on this repository.
 
 ## Build Site from Source
-We are providing our build mkdocs.yml file and our source files in this repository to encourage the community and to help us fix security flaws, spelling, or other errors in our documentation. 
+We are providing our build ``mkdocs.yml`` file and our source files in this repository to encourage the community and to help us fix security flaws, spelling, or other errors in our documentation. 
 
 **We do not permit spinning up any mirrors of our documentation site anywhere on the web. [toffeeosdocs.wallymer.com](https://toffeeosdocs.wallymer.com), and its repositories on the Wallymer GitHub account are the only official places that documentation should be hosted.**
 
@@ -24,7 +19,7 @@ These instructions are specific to Ubuntu/Debian, as this is what our developers
 Clone this repository using ``git``:  
 
 ```
-git clone https://github.com/Wallymer/unicorndocs.git
+git clone https://github.com/popeparty/toffeeOSdocs.git
 ```
 
 Install ``mkdocs`` through the Terminal:  
