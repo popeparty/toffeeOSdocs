@@ -13,14 +13,33 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           issuesOpened: |
             Hi @{{ author }},
-            We don't address issues here on GitHub, as this is a public mirror! You might want to direct this to https://gitlab.com/wallymer/toffeeOSdocs/-/issues. Thanks!
+            We do not address issues here on GitHub. All issues must be made through email - toffeeosbugs@projects.sirw.net - with the following info:
+            ```
+            toffeeOS Version:
+            toffeeOS Kernel:
+
+            System specifications:
+              - list
+              - every
+              - component
+              - here
+
+            Meets minimum requirements?: (yes/no)
+
+            Step(s) to reproduce:
+              - 1
+              - 2
+              - 3
+            ```
             
             Your friends,
             toffeeOS Documentation Maintainers
         
           pullRequestOpened: |
             Hi @{{ author }},
-            We don't address PRs here on GitHub, as this is a public mirror! You might want to direct this to https://gitlab.com/wallymer/toffeeOSdocs. Thanks!
+            PRs are only addressed if they come from contributors to toffeeOS. If you're not a contributor, your PR will be closed. If you're a contributor, don't worry, you can ignore this comment.
+
+            Thanks for understanding!
             
             Your friends,
             toffeeOS Documentation Maintainers
