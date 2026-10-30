@@ -3,7 +3,7 @@ title: System Compatibility
 ---
 
 ## toffeeOS Developer Version (toffeeOS) system compatibility
-Due to the upcoming [x86 support deprecation](https://github.com/onetwentyfour/toffeeOSdocs/blob/master/docs/releases/x86-support-deprecation.md), we recommend installing toffeeOS Developer Version on a 64-bit processor. 
+Due to the upcoming [x86 support deprecation](https://github.com/popeparty/toffeeOSdocs/blob/master/docs/releases/x86-support-deprecation.md), we recommend installing toffeeOS Developer Version on a 64-bit processor. 
 
 The requirements below are subject to change at any time.
 
@@ -27,7 +27,6 @@ The requirements below are subject to change at any time.
   - Hard/Fusion/Hybrid Drives are **NOT** supported.  
 
 ## toffeeOS Developer Version 1.6.1 and later
-
 ### RAM
 - Minimum: 4GB
 - Recommended: 8GB
