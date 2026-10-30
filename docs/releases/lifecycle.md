@@ -38,5 +38,3 @@ Builds from pre-ownership reset will have a support end date of November 1, 2026
 | Beta | 1.6.5 (x86) LTS | 165X2 | February 1, 2022 | March 1, 2022 (^) | Yes | x86 |
 | Stable | 1.6.4 (x86_64) | 163Y4 | January 12, 2022 | November 1, 2026 | No | x86_64 |
 | Stable | 1.6.4 (x86) LTS | 163X2 | January 12, 2022 | March 1, 2022 (^) | Yes | x86 |
-| Stable  | 1.6.3 (x86_64) | 163rk2b | January 12, 2022 | November 1, 2026 | No | x86_64 |
-| Stable | 1.6.3 (x86) LTS | 163rl1 | January 12, 2022 | February 1, 2022 (update to 1.6.4 (x86) LTS) | Yes | x86 |

@@ -29,4 +29,4 @@ sudo toffget purge (package-name) --rm-user-data -y
 ```
 
 ## RPM (DNF)
-We have removed support for RPM/DNF in toffeeOS 2.0. 
+We have removed support for RPM/DNF in toffeeOS Developer Version 2.0. 

@@ -2,7 +2,7 @@
 title: API Release Targets
 ---
 ## API Release Targets
-These are the API targets for supported toffeeOS Dev Version releases (LTS/non-LTS). We recommend developers target the three most recent releases of toffeeOS, not including the LTS releases.
+These are the API targets for supported toffeeOS Developer Version releases (LTS/non-LTS). We recommend developers target the three most recent releases of toffeeOS Developer Version, not including the LTS releases.
 
 ``NC`` = No API changes in this release
 
@@ -11,7 +11,7 @@ x86 support has been removed in API level ``200``, making ``166X`` (1.6.8 LTS) t
 
 ### x86_64 (64-bit) [Y] and ARM [A]
 
-| toffeeOS Dev Version Release | Current Channel(s) | API Level (Target) |
+| toffeeOS Developer Version Release | Current Channel(s) | API Level (Target) |
 |-----------------|-----------------|--------------------|
 | 2.1 LTS | Alpha | ``210`` |
 | 2.0 | Alpha, Beta | ``200`` |
