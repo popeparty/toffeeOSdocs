@@ -3,25 +3,31 @@ on:
   push:
     branches:
       - master
+      - main
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 jobs:
-  build:
-    name: Deploy docs to GitHub Pages
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 
-        uses: actions/checkout@v2
-      - name: Build
-        uses: Tiryoh/actions-mkdocs@v0
+      - uses: actions/configure-pages@v6
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
         with:
-          mkdocs_version: 'latest' # option
-          #mkdocs_version: '1.1' # option
-          requirements: 'requirements.txt' # option
-          configfile: 'mkdocs.yml' # option
+          python-version: 3.x
+      - run: pip install zensical
+      - run: zensical build --clean 
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-          cname: toffeeosdocs.pope.party
+          uses: peaceiris/actions-gh-pages@v3
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./site
+            cname: toffeeosdocs.pope.party
