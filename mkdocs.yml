@@ -1,3 +1,4 @@
 site_name: toffeeOS Developer Version Docs
-theme: material
+theme:
+  variant: modern
 repo_url: https://github.com/popeparty/toffeeOSdocs
