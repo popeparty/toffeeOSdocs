@@ -25,9 +25,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
-      - name: Deploy
-          uses: peaceiris/actions-gh-pages@v3
-          with:
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
             publish_dir: ./site
             cname: toffeeosdocs.pope.party
